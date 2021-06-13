@@ -86,7 +86,8 @@ function draw() {
 
 	if (keyCode === RIGHT_ARROW){
 		helicopterSprite.x = helicopterSprite.x+20;
-		Matter.Body.transalate(packageBody,{x:-20,y:0}) 
+		Matter.Body.transalate(packageBody,{x:20,y:0}) 
+                Matter.Body.translate(packageBody, translation) }
 	  }
 	
     if (keyCode === DOWN_ARROW) {
