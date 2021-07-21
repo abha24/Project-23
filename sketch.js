@@ -76,6 +76,7 @@ function draw() {
 
   
   drawSprites();
+}
   
   function keyPressed(){
    
@@ -96,4 +97,4 @@ function draw() {
     
   }
  
-}
+
